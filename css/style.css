@@ -735,5 +735,123 @@ a:focus {
   color: #f9fcfb;
 }
 
+
+
+/* counts animation */
+
+@property --clientnum {
+  syntax: "<integer>";
+  initial-value: 99;
+  inherits: false;
+}
+
+.client-count{
+  animation: clientcounter 3s  ease-in-out;
+  counter-reset: num var(--clientnum);
+  font: 600 30px;
+  /* padding: 2rem; */
+}
+
+.client-count::after {
+  content: counter(num);
+}
+
+@keyframes clientcounter {
+  from {
+    --clientnum: 0;
+  }
+  to {
+    --clientnum: 99;
+  }
+}
+
+
+
+/* planning */
+
+@property --projectnum {
+  syntax: "<integer>";
+  initial-value: 300;
+  inherits: false;
+}
+
+.project-count{
+  animation: projectcounter 3s  ease-in-out;
+  counter-reset: num var(--projectnum);
+  font: 600 30px;
+  /* padding: 2rem; */
+}
+
+.project-count::after {
+  content: counter(num);
+}
+
+@keyframes projectcounter {
+  from {
+    --projectnum: 0;
+  }
+  to {
+    --projectnum: 300;
+  }
+}
+
+
+/* customer */
+
+@property --customernum {
+  syntax: "<integer>";
+  initial-value: 45;
+  inherits: false;
+}
+
+.customer-count{
+  animation: customercounter 3s  ease-in-out;
+  counter-reset: num var(--customernum);
+  font: 600 30px;
+  /* padding: 2rem; */
+}
+
+.customer-count::after {
+  content: counter(num);
+}
+
+@keyframes customercounter {
+  from {
+    --customernum: 0;
+  }
+  to {
+    --customernum: 45;
+  }
+}
+
+
+/* buisness */
+
+
+@property --buisnessnum {
+  syntax: "<integer>";
+  initial-value: 50;
+  inherits: false;
+}
+
+.buisness-count{
+  animation: buisness_counter 3s  ease-in-out;
+  counter-reset: num var(--buisnessnum);
+  font: 600 30px;
+  /* padding: 2rem; */
+}
+
+.buisness-count::after {
+  content: counter(num);
+}
+
+@keyframes buisness_counter {
+  from {
+    --buisnessnum: 0;
+  }
+  to {
+    --buisnessnum: 50;
+  }
+}
 /* end footer section*/
 /*# sourceMappingURL=style.css.map */
