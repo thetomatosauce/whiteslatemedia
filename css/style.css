@@ -739,7 +739,7 @@ a:focus {
 
 /* counts animation */
 
-@property --clientnum {
+/* @property --clientnum {
   syntax: "<integer>";
   initial-value: 99;
   inherits: false;
@@ -749,7 +749,7 @@ a:focus {
   animation: clientcounter 3s  ease-in-out;
   counter-reset: num var(--clientnum);
   font: 600 30px;
-  /* padding: 2rem; */
+  padding: 2rem;
 }
 
 .client-count::after {
@@ -763,13 +763,13 @@ a:focus {
   to {
     --clientnum: 99;
   }
-}
+} */
 
 
 
 /* planning */
 
-@property --projectnum {
+/* @property --projectnum {
   syntax: "<integer>";
   initial-value: 300;
   inherits: false;
@@ -779,7 +779,7 @@ a:focus {
   animation: projectcounter 3s  ease-in-out;
   counter-reset: num var(--projectnum);
   font: 600 30px;
-  /* padding: 2rem; */
+  padding: 2rem;
 }
 
 .project-count::after {
@@ -793,12 +793,12 @@ a:focus {
   to {
     --projectnum: 300;
   }
-}
+} */
 
 
 /* customer */
 
-@property --customernum {
+/* @property --customernum {
   syntax: "<integer>";
   initial-value: 45;
   inherits: false;
@@ -808,7 +808,7 @@ a:focus {
   animation: customercounter 3s  ease-in-out;
   counter-reset: num var(--customernum);
   font: 600 30px;
-  /* padding: 2rem; */
+  padding: 2rem;
 }
 
 .customer-count::after {
@@ -822,13 +822,13 @@ a:focus {
   to {
     --customernum: 45;
   }
-}
+} */
 
 
 /* buisness */
 
 
-@property --buisnessnum {
+/* @property --buisnessnum {
   syntax: "<integer>";
   initial-value: 50;
   inherits: false;
@@ -838,7 +838,6 @@ a:focus {
   animation: buisness_counter 3s  ease-in-out;
   counter-reset: num var(--buisnessnum);
   font: 600 30px;
-  /* padding: 2rem; */
 }
 
 .buisness-count::after {
@@ -850,8 +849,8 @@ a:focus {
     --buisnessnum: 0;
   }
   to {
-    --buisnessnum: 50;
+    --buisnessnum: 10;
   }
-}
+} */
 /* end footer section*/
 /*# sourceMappingURL=style.css.map */
