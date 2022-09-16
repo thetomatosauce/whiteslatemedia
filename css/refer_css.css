@@ -103,14 +103,14 @@ html {
 }
 
 .right-menu ul li a {
-    color: #6610f2;
+    color: #f2c910;
     text-transform: uppercase;
     font-family: 'Poppins', sans-serif;
     padding: 19px 10px;
     display: block;
     width: 300px;
     text-align: center;
-    border-bottom: 2px solid #6610f2;
+    border-bottom: 2px solid #f2c910;
     font-size: 20px;
 }
 
@@ -196,7 +196,7 @@ html {
 .team-member-info span {
     display: block;
     color: #000;
-    border-top: 1px solid #6610f2;
+    border-top: 1px solid #f2c910;
     padding-top: 10px;
     opacity: 0;
     font-family: 'Poppins', sans-serif;
@@ -244,9 +244,9 @@ html {
     border-top-style: solid;
     border-left-style: solid;
     border-left-width: 4px;
-    border-left-color: #6610f2;
+    border-left-color: #f2c910;
     border-top-width: 4px;
-    border-top-color: #6610f2;
+    border-top-color: #f2c910;
     border-right-style: none;
     border-bottom-style: none;
     -webkit-transition: .2s linear .1s;
@@ -268,9 +268,9 @@ html {
     border-bottom-style: solid;
     border-right-style: solid;
     border-right-width: 4px;
-    border-right-color: #6610f2;
+    border-right-color: #f2c910;
     border-bottom-width: 4px;
-    border-bottom-color: #6610f2;
+    border-bottom-color: #f2c910;
     border-left-style: none;
     border-top-style: none;
     -webkit-transition: .2s linear .1s;
@@ -318,9 +318,9 @@ html {
     border-top-style: solid;
     border-left-style: solid;
     border-left-width: 4px;
-    border-left-color: #6610f2;
+    border-left-color: #f2c910;
     border-top-width: 4px;
-    border-top-color: #6610f2;
+    border-top-color: #f2c910;
     border-right-style: none;
     border-bottom-style: none;
     -webkit-transition: .2s linear .1s;
@@ -344,9 +344,9 @@ html {
   border-bottom-style: solid;
   border-right-style: solid;
   border-right-width: 4px;
-  border-right-color: #6610f2;
+  border-right-color: #f2c910;
   border-bottom-width: 4px;
-  border-bottom-color: #6610f2;
+  border-bottom-color: #f2c910;
   border-left-style: none;
   border-top-style: none;
   transition: .2s linear .1s;
@@ -362,9 +362,9 @@ html {
     border-bottom-style: solid;
     border-right-style: solid;
     border-right-width: 1px;
-    border-right-color: #6610f2;
+    border-right-color: #f2c910;
     border-bottom-width: 1px;
-    border-bottom-color: #6610f2;
+    border-bottom-color: #f2c910;
     border-left-style: none;
     border-top-style: none;
     -webkit-transition: .2s linear .1s;
@@ -425,7 +425,7 @@ html {
 }
 
 .counter-col span.counts {
-    color: #6610f2;
+    color: #f2c910;
     font-size: 70px;
     font-weight: 600;
     line-height: 70px;
@@ -481,7 +481,7 @@ html {
   content: ' ';
   height: 33px;
   width: 2px;
-  background-color: #6610f2;
+  background-color: #f2c910;
 }
 .c-close:before {
   transform: rotate(45deg);
@@ -869,7 +869,7 @@ li.gp-card.expanded .egp-container.expandview {
 }
 
 .full-info-box-expand .country-list {
-    border: 1px solid #6610f2;
+    border: 1px solid #f2c910;
     padding: 20px;
 }
 
@@ -891,7 +891,7 @@ ul.gp-wrapper .gp-card1:after {
     top: 50%;
     -webkit-transform: translateY(-50%);
     transform: translateY(-50%);
-    background: #6610f2;
+    background: #f2c910;
     right: -4px;
     z-index: 9;
 }
@@ -959,9 +959,9 @@ li.gp-card.gp-card2.expanded .expanded-view {
     border-top-style: solid;
     border-left-style: solid;
     border-left-width: 4px;
-    border-left-color: #6610f2;
+    border-left-color: #f2c910;
     border-top-width: 4px;
-    border-top-color: #6610f2;
+    border-top-color: #f2c910;
     border-right-style: none;
     border-bottom-style: none;
     -webkit-transition: .2s linear .1s;
@@ -978,9 +978,9 @@ li.gp-card.gp-card2.expanded .expanded-view {
     border-bottom-style: solid;
     border-right-style: solid;
     border-right-width: 4px;
-    border-right-color: #6610f2;
+    border-right-color: #f2c910;
     border-bottom-width: 4px;
-    border-bottom-color: #6610f2;
+    border-bottom-color: #f2c910;
     border-left-style: none;
     border-top-style: none;
     -webkit-transition: .2s linear .1s;
@@ -996,11 +996,11 @@ li.gp-card.gp-card2.expanded .expanded-view {
 }
 
 .footer-rightbtm-links li a:hover i {
-    color: #6610f2 !important;
+    color: #f2c910 !important;
 }
 
 .footer-rightbtm-links li a:hover {
-    color: #6610f2;
+    color: #f2c910;
 }
 
 .white-title p {
@@ -1093,7 +1093,7 @@ li.gp-card.gp-card2.expanded .expanded-view {
 
 /* Handle */
 .global-n-partners-section .partner-client-logo::-webkit-scrollbar-thumb {
-    background: #6610f2;
+    background: #f2c910;
     border-radius: 2px;
 }
 
@@ -1177,9 +1177,9 @@ li.gp-card.gp-card2.expanded .expanded-view {
     border-top-style: solid;
     border-left-style: solid;
     border-left-width: 1px;
-    border-left-color: #6610f2;
+    border-left-color: #f2c910;
     border-top-width: 1px;
-    border-top-color: #6610f2;
+    border-top-color: #f2c910;
     border-right-style: none;
     border-bottom-style: none;
     -webkit-transition: .2s linear .1s;
@@ -1294,7 +1294,7 @@ li.gp-card.gp-card2.expanded .expanded-view {
     }
 
     .counter-col span.counts {
-        color: #6610f2;
+        color: #f2c910;
         font-size: 90px;
         font-weight: 600;
         line-height: 80px;
@@ -1508,7 +1508,7 @@ li.gp-card.gp-card2.expanded .expanded-view {
     }
 
     .counter-col span.counts {
-        color: #6610f2;
+        color: #f2c910;
         font-size: 90px;
         font-weight: 600;
         line-height: 80px;
@@ -1658,7 +1658,7 @@ li.gp-card.gp-card2.expanded .expanded-view {
     }
 
     .counter-col span.counts {
-        color: #6610f2;
+        color: #f2c910;
         font-size: 90px;
         font-weight: 600;
         line-height: 80px;
@@ -1814,7 +1814,7 @@ li.gp-card.gp-card2.expanded .expanded-view {
     }
 
     .counter-col span.counts {
-        color: #6610f2;
+        color: #f2c910;
         font-size: 90px;
         font-weight: 600;
         line-height: 80px;
@@ -1969,7 +1969,7 @@ li.gp-card.gp-card2.expanded .expanded-view {
     }
 
     .counter-col span.counts {
-        color: #6610f2;
+        color: #f2c910;
         font-size: 90px;
         font-weight: 600;
         line-height: 80px;
@@ -2125,7 +2125,7 @@ li.gp-card.gp-card2.expanded .expanded-view {
     }
 
     .counter-col span.counts {
-        color: #6610f2;
+        color: #f2c910;
         font-size: 90px;
         font-weight: 600;
         line-height: 80px;
@@ -2281,7 +2281,7 @@ li.gp-card.gp-card2.expanded .expanded-view {
     }
 
     .counter-col span.counts {
-        color: #6610f2;
+        color: #f2c910;
         font-size: 90px;
         font-weight: 600;
         line-height: 80px;
@@ -2441,7 +2441,7 @@ li.gp-card.gp-card2.expanded .expanded-view {
     }
 
     .counter-col span.counts {
-        color: #6610f2;
+        color: #f2c910;
         font-size: 90px;
         font-weight: 600;
         line-height: 80px;
