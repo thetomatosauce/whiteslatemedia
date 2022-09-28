@@ -47,7 +47,7 @@ body {
 .hero_area {
   height: 94vh;
   /* background: -webkit-gradient(linear, left top, right top, from(#864ddf), to(#203376)); */
-  background: linear-gradient(to right , hsl(41, 100%, 55%), #ffd11a);
+  background:  hsl(41, 100%, 55%);
 }
 
 .hero_area::before {
@@ -329,7 +329,7 @@ a:focus {
   text-align: center;
   color: #f9fcfb;
   /* background-image: url(../images/service-bg.png); */
-  background: linear-gradient(to right , hsl(41, 100%, 55%), #ffd11a);
+  background:  hsl(41, 100%, 55%);
   background-size: 100% 100%;
   padding-top: 75px;
   padding-bottom: 25px;
@@ -438,7 +438,7 @@ a:focus {
 .why_section {
   color: #f9fcfb;
   /* background: -webkit-gradient(linear, left top, right top, from(#1b3374), to(#8f4fe8)); */
-  background: linear-gradient(to right , hsl(41, 100%, 55%), #ffd11a);
+  background:  hsl(41, 100%, 55%);
 }
 
 .why_section .custom_heading-container h2 {
@@ -606,7 +606,7 @@ a:focus {
 
 /* info section */
 .footer_bg {
-  background: linear-gradient(to right , hsl(41, 100%, 55%), #ffd11a);
+  background: hsl(41, 100%, 55%);
   /* background-size: cover; */
   padding-top: 50px;
   margin-top: 25px;
